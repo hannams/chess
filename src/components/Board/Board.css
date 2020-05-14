@@ -17,13 +17,21 @@
 }
 
 .column:nth-child(odd) .cell:nth-child(even) {
-    background-color: #000;
+    background-color: #989898;
 }
 
 .column:nth-child(even) .cell:nth-child(odd) {
-    background-color: #000;
+    background-color: #989898;
 }
 
 .column:nth-child(even) .cell:nth-child(even) {
     background-color: #fff;
+}
+
+.available {
+    box-shadow: 0 0 10px green inset;
+}
+
+.wrong{
+    box-shadow: 0 0 10px red inset;
 }

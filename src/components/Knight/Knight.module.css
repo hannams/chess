@@ -1,0 +1,9 @@
+.knight {
+    height: 50px;
+    position: absolute;
+    margin-left: 20px;
+    color: red;
+    font-size: 55px;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+}

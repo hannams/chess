@@ -8,6 +8,7 @@ function Desk(props) {
 
     return (
         <div className={classes.wrapper}>
+
             <Numbers/>
             <Board/>
             <Letters/>
